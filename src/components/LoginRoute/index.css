@@ -1,0 +1,67 @@
+.app-container {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form-container {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  height: 370px;
+}
+.website-logo {
+  width: 200px;
+  margin-bottom: 30px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.username-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.password-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.search-input {
+  height: 40px;
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid #6366f1;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.login-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
